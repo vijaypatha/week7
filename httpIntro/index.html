@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="httpApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>HTTPIntro</title>
+</head>
+
+<body ng-controller="mainCtrl">
+    <h2>API: Application Protocal Interface</h2>
+    <h2>JSON: Data Format inspired from JS objects and are converted to String.
+    1) Root Object, 2) Keys are in quotes,3) simple datatypes. no methods or objects, and 4)no var =,</h2>
+    <h2>REST: is a protocol. Set of procedures or set of instructions. Protocol for sending and recieveing data</h2>
+    <p>REST METHODS:</p>
+    <ul>
+      <li>Get: get the data</li>
+      <li>Put : Modify. Change something that already exisits</li>
+      <li>Post: add to the API</li>
+      <li>Delete</li>
+    </ul>
+
+    {{test}}
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="./scripts/app.js" charset="utf-8"></script>
+    <script src="./scripts/dataService.js" charset="utf-8"></script>
+    <script src="./scripts/mainCtrl.js" charset="utf-8"></script>
+</body>
+
+</html>
